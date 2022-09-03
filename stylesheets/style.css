@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    list-style: 1.5;
+    font-family: "open sans" , sans-serif;
+    font-size: 24px;
+}
+header, aside, section, footer {
+    padding: 60px;
+    border: 1px solid;
+    text-align: center;
+    margin: 1.5%;
+    border-radius: 10px;
+    
+}
+header, footer {
+    background-color: blue;    
+}
+aside, section {
+    background-color: green;
+    padding: 100px;
+    display: inline-block;
+
+}
+aside {
+    width: 27%;
+}
+section {
+    width: 67%
+}
